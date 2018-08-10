@@ -1,5 +1,5 @@
 import { Injectable, Inject } from '@angular/core';
-import { event, config } from 'app/sharedModules/add-to-google-calander/data.model';
+import { event, config } from './data.model';
 declare var gapi: any;
 
 @Injectable({

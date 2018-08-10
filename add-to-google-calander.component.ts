@@ -1,6 +1,6 @@
 import { Component, OnInit, Pipe, PipeTransform, NgZone, Input, SimpleChanges, Output, EventEmitter } from '@angular/core';
 import { ClanderService } from './clander-service.service';
-import { event } from 'app/sharedModules/add-to-google-calander/data.model';
+import { event } from './data.model';
 
 declare var gapi: any;
 

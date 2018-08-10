@@ -2,7 +2,7 @@ import { NgModule, ModuleWithProviders } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { AddToGoogleCalanderComponent } from './add-to-google-calander.component';
 import { ClanderService } from './clander-service.service';
-import { config } from 'app/sharedModules/add-to-google-calander/data.model';
+import { config } from './data.model';
 
 @NgModule({
   imports: [
